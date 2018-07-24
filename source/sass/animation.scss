@@ -1,0 +1,178 @@
+@keyframes gears {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(300deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes typingText {
+  from {
+    width: 0;
+    overflow: hidden;
+  }
+}
+
+@keyframes removeText {
+  to {
+    width: 0;
+    overflow: hidden;
+  }
+}
+
+@keyframes showBlock {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleBlock {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes scaleBlockToMin {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(0);
+  }
+}
+
+/**
+slide-1
+ */
+@keyframes slide-1__background {
+  from {
+    right: 0;
+  }
+
+  to {
+    right: calc(50% + 60px);
+  }
+}
+
+@keyframes slide-1__showBackgroundSVG {
+  from {
+    width: 0;
+    height: 0;
+  }
+}
+
+@keyframes slide-1__showShadowSVG {
+  from {
+    box-shadow: 0 0 0 0 rgba(19, 26, 87, 0.43);
+  }
+}
+
+@keyframes slide-1__scaleSVGtoMax {
+  from {
+    transform: translate(-50%, -50%) scale(0);
+  }
+
+  to {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes slide-1__scaleSVGtoMin {
+  from {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  to {
+    transform: translate(-50%, -50%) scale(0);
+  }
+}
+
+/**
+slide-2
+ */
+@keyframes slide-2__showBG {
+  from {
+    top: calc(50% - 20px);
+    left: 50%;
+    width: calc(100vh - 7vh);
+    height: calc(100vh - 7vh);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  to {
+    top: calc(50% - 20px);
+    left: 50%;
+    width: 200vw;
+    height: 200vw;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes slide-2__moveCircle {
+  from {
+    width: 0;
+    height: 0;
+    box-shadow: 0 0 0 0 rgba(40, 53, 147, 0.5), 0 0 0 0 rgba(40, 53, 147, 0.5);
+    z-index: 2;
+  }
+
+  50% {
+    width: 0;
+    height: 0;
+    box-shadow: 0 0 0 0 rgba(40, 53, 147, 0.5), 0 0 0 430px rgba(40, 53, 147, 0.5);
+  }
+
+  70% {
+    width: 0;
+    height: 0;
+  }
+
+  to {
+    box-shadow: 0 0 0 210px rgba(40, 53, 147, 0.5), 0 0 0 430px rgba(40, 53, 147, 0.5);
+    z-index: 2;
+  }
+}
+
+@keyframes slide-2__startRotate {
+  from {
+    transform-origin: calc(-50vh) 50vh;
+    transform: rotate(90deg);
+  }
+
+  to {
+    transform-origin: calc(-50vh) 50vh;
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-2__endRotate {
+  from {
+    transform-origin: calc(-50vh) 50vh;
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+
+  to {
+    transform-origin: calc(-50vh) 50vh;
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+}

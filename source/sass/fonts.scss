@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    local("Gilroy-Medium"),
+    local("gilroy-Medium"),
+    url("../fonts/Gilroy/Gilroy-Medium/Gilroy-Medium.woff2") format("woff2"),
+    url("../fonts/Gilroy/Gilroy-Medium/Gilroy-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    local("Gilroy-SemiBold"),
+    local("gilroy-SemiBold"),
+    url("../fonts/Gilroy/Gilroy-SemiBold/Gilroy-SemiBold.woff2") format("woff2"),
+    url("../fonts/Gilroy/Gilroy-SemiBold/Gilroy-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "OsnovaPro";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src:
+    local("OsnovaPro-Regular"),
+    local("osnova_pro_regular"),
+    url("../fonts/OsnovaPro/osnova_pro_regular.woff2") format("woff2"),
+    url("../fonts/OsnovaPro/osnova_pro_regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "OsnovaPro";
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src:
+    local("OsnovaPro-Bold"),
+    local("osnova_pro_bold"),
+    url("../fonts/OsnovaPro/osnova_pro_bold.woff2") format("woff2"),
+    url("../fonts/OsnovaPro/osnova_pro_bold.woff") format("woff");
+}
